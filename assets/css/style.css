@@ -5,13 +5,21 @@
     margin: 0;
 }
 
+/* Applies custom CSS variables and applies them to the root of the page */
+:root {
+    --white: #ffffff;
+    --font1: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --font2: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --elementnamebg: #0072bb;
+}
+
 /* Applies to elements in body */
 body {
     background-color: #d9dcd6;
 }
 
 /* Applies to elements in the header class */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,18 +27,18 @@ body {
 }
 
 /* Applies to elements in the header h1 classes */
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Applies to elements in the header h1 .seo classes */
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
 /* Applies to elements in the header div classes */
-.header div {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +47,12 @@ body {
 }
 
 /* Applies to elements in the header div ul classes */
-.header div ul {
+ul {
     list-style-type: none;
 }
 
 /* Applies to elements in the header div ul li classes */
-.header div ul li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -222,7 +230,7 @@ p {
 }
 
 /* Applies to the footer */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
