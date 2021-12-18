@@ -63,11 +63,6 @@ header a {
     text-decoration: none;
 }
 
-/* Applies to elements in the paragraph */
-section p {
-    font-size: 16px;
-}
-
 /* Applies to elements in the hero class */
 .hero {
     height: 800px;
@@ -76,6 +71,28 @@ section p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Applies to elements in the content class */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Applies to the content-box class */
+.content-box {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: var(--font2);
+    background-color: #0072bb;
+    color: var(--white);
+}
+
+/* Applies to the content-box img */
+.content-box img {
+    max-height: 200px;
 }
 
 /* Applies to elements in the float-left class */
@@ -90,11 +107,15 @@ section p {
     margin-left: 25px;
 }
 
-/* Applies to elements in the content class */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* Applies to the search-engine optimization h2 classes */
+.content-box h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Applies to elements in the paragraph */
+section p {
+    font-size: 16px;
 }
 
 /* Applies to elements in the benefits class */
@@ -128,26 +149,6 @@ section p {
     max-width: 150px;
 }
 
-/* Applies to the content-box class */
-.content-box {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: var(--font2);
-    background-color: #0072bb;
-    color: var(--white);
-}
-
-/* Applies to the content-box img */
-.content-box img {
-    max-height: 200px;
-}
-
-/* Applies to the search-engine optimization h2 classes */
-.content-box h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* Applies to the footer */
 footer {
